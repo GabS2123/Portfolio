@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+#cabecalho {
+    align-items: center;
+    margin: auto;
+    background-color: #194b68;
+    text-align: center;
+    padding: 40px;
+
+}
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#conteudo {
+    width: 660px;
+    float: left;
+}
+
+#lateral {
+    width: 240px;
+    float: right;
+
+}
+
+.conteudo-lateral {
+    background-color: #ebebeb;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 20px 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.postagem {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+/*formatação menu*/
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+a:link,
+a:visited {
+    color: #c59205;
+}
+
+a:hover {
+    color: #ff6105;
+    text-decoration: underline;
+}
+.postagem-lateral a:link,
+.postagem-lateral a:visited {
+    font-size: 14px;
+    color: #c59205;
+}
+
+.postagem-lateral a:hover {
+    color: #ff6105;
+    text-decoration: underline;
+}
+
+#area-menu a:link,
+#area-menu a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+#area-menu a:hover {
+    color: #194b68;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*formatação geral*/
+
+
+h1 {
+    color: #020107;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #194b68;
+}
+h3 {
+    color: #c9c8c8;
+    background-color: #215b7c;
+    padding: 5px;
+}
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+    font-size: 0.9em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: underline;
+}
+
+#clear {
+    padding: 15px;
+    text-align: center;
+    clear: both;
+    background-color: #ffffff;
+}
